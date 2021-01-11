@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup as bs
 
-BASE_URL = "https://subscene.com"
+BASE_URL = "https://isubtitles.org"
 
 def search_sub(query):
     r = requests.get(f"{BASE_URL}/search?kwd={query}").text
