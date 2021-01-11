@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup as bs
 
-BASE_URL = "https://subz.lk"
+BASE_URL = "https://www.baiscopelk.com/"
 
 def search_sub(query):
     r = requests.get(f"{BASE_URL}/search?kwd={query}").text
